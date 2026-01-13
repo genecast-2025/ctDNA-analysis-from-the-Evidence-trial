@@ -1,0 +1,9 @@
+sample_id	chrom	pos_raw	ref	alt	mutation_id	tissue_freq	tissue_sample_id	depth	support_reads	freq
+demo	chr7	55241707	G	T	chr7:g.55241707G>T	59.428	demo_tissue	11971	0	0.0
+demo	chr7	55242464	AGGAATTAAGAGAAGC	A	chr7:g.55242465_55242479del15	58.188	demo_tissue	8921	0	0.0
+demo	chr7	55242469	TTAAGAGAAGCAACATCTC	T	chr7:g.55242470_55242487del18	56.623	demo_tissue	8837	0	0.0
+demo	chr7	55249005	G	T	chr7:g.55249005G>T	55.914	demo_tissue	12533	2	0.016
+demo	chr7	55249012	C	CGGT	chr7:g.55249012_55249013insGGT	58.046	demo_tissue	12497	0	0.0
+demo	chr7	55249071	C	T	chr7:g.55249071C>T	55.93	demo_tissue	10646	1	0.009
+demo	chr7	55259515	T	G	chr7:g.55259515T>G	55.497	demo_tissue	12864	1	0.008
+demo	chr7	55259524	T	A	chr7:g.55259524T>A	59.674	demo_tissue	12090	0	0.0

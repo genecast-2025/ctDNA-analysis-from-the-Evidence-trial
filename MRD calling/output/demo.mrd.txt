@@ -1,0 +1,2 @@
+sample_id	tissue_sample_id	sample_num	sample_ratio	sample_p
+demo	demo_tissue	8	2.4084339999999995e-05	7.982e-03
