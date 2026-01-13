@@ -6,7 +6,6 @@
 #This document outlines the dependencies required to run the research code.
 
 #python 3.9.0
-
 #hg19/GRCh37: human genome build 37
 
 #Installation
@@ -23,15 +22,15 @@ chmod +x mrd_worflow
 ./mrd_worflow 
 
 #Usage
-#Prepare input data in the required format (see demo/demo.variant.txt)
+#Prepare input data in the required format (see input/demo.variant.txt)
 
 #Run the analysis
-#./mrd_worflow --bam demo/demo.bam --variant demo/demo.variant.txt --reference ucsc.hg19.fasta --outdir demo_result --sample demo
+./mrd_worflow --bam input/demo.bam --variant input/demo.variant.txt --reference ucsc.hg19.fasta --outdir output --sample demo
 
 
 #Expected outputs
-#demo/demo.site.txt - Tumor-derived Variants info of dectection sample
-#demo/demo.mrd.txt - MRD status info of dectection sample
+#output/demo.site.txt - Tumor-derived Variants info of dectection sample
+#output/demo.mrd.txt - MRD status info of dectection sample
 
 
 
