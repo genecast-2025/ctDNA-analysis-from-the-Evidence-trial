@@ -1,2 +1,0 @@
->25M, see release for bam file.
-https://github.com/genecast-2025/MinerVa-Prime/releases/tag/demo.bam
