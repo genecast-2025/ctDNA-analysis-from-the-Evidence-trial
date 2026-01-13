@@ -11,16 +11,16 @@
 
 #Installation
 #Install Python Dependencies
-#pip install -r requirements.txt
+pip install -r requirements.txt
 
 #Set environment
-#export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 #Make executable
-#chmod +x mrd_worflow 
+chmod +x mrd_worflow 
 
 #Run the application
-#./mrd_worflow 
+./mrd_worflow 
 
 #Usage
 #Prepare input data in the required format (see demo/demo.variant.txt)
@@ -35,4 +35,4 @@
 
 
 
-./mrd_worflow --bam demo/demo.bam --variant demo/demo.variant.txt --reference ucsc.hg19.fasta --outdir demo_result --sample demo
+
