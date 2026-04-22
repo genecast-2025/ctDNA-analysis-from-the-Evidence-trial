@@ -52,7 +52,7 @@ chmod +x mrd_workflow
 | Component | Version | Notes |
 |-----------|---------|-------|
 | Python | 3.9.0+ | Compatibility with earlier versions may vary |
-| Genome | hg19/GRCh37 | Must use GRCh37 reference coordinates |
+| Genome | hg19 | Must use hg19 reference coordinates |
 | OS | Linux/Unix | Windows not officially supported |
 | RAM | 4-8 GB | Depends on BAM file size and variant count |
 
@@ -96,7 +96,7 @@ chmod +x mrd_workflow
 #### BAM File Format
 - **Standard alignment format** for sequencing reads
 - Must be indexed (`.bai` file required)
-- Aligned to **hg19/GRCh37**
+- Aligned to **hg19**
 - Includes quality scores and alignment metrics
 
 **Requirements:**
@@ -107,7 +107,7 @@ samtools index sample.bam
 
 #### Reference Genome
 - **File format:** FASTA
-- **Build:** GRCh37/hg19
+- **Build:** hg19
 - **Filename:** `ucsc.hg19.fasta`
 - Must match BAM alignment reference exactly
 
