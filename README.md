@@ -90,18 +90,6 @@ chmod +x mrd_workflow
   --reference <FASTA> --outdir <OUTPUT_DIR> --sample <SAMPLE_ID>
 ```
 
-#### Complete Example
-```bash
-./mrd_workflow \
-  --bam path/to/sample.bam \
-  --variant path/to/sample.variants.txt \
-  --reference /ref/ucsc.hg19.fasta \
-  --outdir ./results \
-  --sample patient_123 \
-  --threads 8 \
-  --min-depth 5000 \
-  --min-af 0.0001
-```
 
 ### Input Formats
 
