@@ -13,31 +13,6 @@ This repository contains two integrated analysis modules for the EVIDENCE trial 
 1. **[MRD Calling](./MRD%20calling)** - Molecular Residual Disease detection from circulating tumor DNA
 2. **[Figure Plot](./figure%20plot)** - Statistical analysis and publication-ready visualizations
 
-### Directory Structure
-
-```
-ctDNA-analysis-from-the-Evidence-trial/
-│
-├── README.md                               # This file
-│
-├── MRD calling/                            # MRD Detection Module
-│   ├── mrd_workflow                        # Executable (Cython-compiled)
-│   ├── requirements.txt                    # Python dependencies
-│   ├── ucsc.hg19.fasta                     # Reference genome
-│   ├── input/                              # Input data
-│   │   ├── demo.bam                        # Example BAM file
-│   │   └── demo.variant.txt                # Example variants
-│   └── output/                             # Analysis outputs
-│       ├── demo.site.txt                   # Variant information
-│       └── demo.mrd.txt                    # MRD status report
-│
-└── figure plot/                            # Analysis & Visualization Module
-    ├── data/                               # Input data
-    ├── scripts/                            # R analysis scripts
-    └── output/                             # Generated figures & tables
-```
-
----
 
 ## 1. MRD Calling Module
 
