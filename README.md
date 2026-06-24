@@ -6,12 +6,26 @@
 
 ---
 
+## Reproducibility Statement
+
+The analyses in this repository are designed with two layers of reproducibility:
+
+**(i) Fully open** — All statistical analyses, tables, and publication-ready figures presented in the manuscript can be reproduced directly from the deposited variant input lists using the R/Python scripts provided in the [Figure Plot](#2-figure-plot-module) module. No proprietary software is required at this layer.
+
+**(ii) Executable level** — MRD status calls and ctDNA content estimates can be reproduced from plasma-derived BAM files using the compiled MinerVa Prime executable deposited in this repository (see [MRD Calling Module](#1-mrd-calling-module)). The compiled binary is provided to ensure reproducibility of MRD calling; however, the underlying source code is proprietary and subject to patent restrictions, and is **not publicly available.**
+
+Preprocessing steps from plasma FASTQ files to BAM files are not included in this repository and should be performed independently using standard alignment and preprocessing pipelines. In addition, variant inputs derived from tumor tissue sequencing and the reference genome FASTA files are required and should be prepared separately by the user according to standard practices.
+
+Any further requests for code or data access may be directed to the corresponding author.
+
+---
+
 ## Repository Contents
 
 This repository contains two integrated analysis modules for the EVIDENCE trial study:
 
-1. **[MRD Calling](./MRD%20calling)** - Molecular Residual Disease detection from circulating tumor DNA
-2. **[Figure Plot](./figure%20plot)** - Statistical analysis and publication-ready visualizations
+1. **[MRD Calling](./MRD%20calling)** - generation of MRD status and ctDNA content estimates from circulating tumor DNA sequencing data.
+2. **[Figure Plot](./figure%20plot)** - statistical analyses, manuscript figures, supplementary figures, and tables.
 
 
 ## 1. MRD Calling Module
